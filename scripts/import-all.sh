@@ -6,3 +6,4 @@
 ./scripts/import.sh andreypopp/ocamlformat-mlx 0.2
 ./scripts/import.sh andreypopp/ocamlformat-mlx 0.3
 ./scripts/import.sh andreypopp/ocamlformat-mlx 0.4
+./scripts/import.sh andreypopp/dune "3.11.0+merlin-reader"
