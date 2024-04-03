@@ -11,3 +11,5 @@
 ./scripts/import.sh andreypopp/ocamlformat-mlx 0.5
 ./scripts/import.sh andreypopp/dune "3.11.0+merlin-reader"
 ./scripts/import.sh andreypopp/dune "3.15.0+merlin-reader"
+./scripts/import.sh andreypopp/ppx_deriving_tools 0.1
+./scripts/import.sh andreypopp/ppx_deriving_json 0.1
