@@ -24,3 +24,4 @@
 ./scripts/import.sh andreypopp/reactor 0.1 realm/realm.opam
 ./scripts/import.sh andreypopp/reactor 0.1 react/react_browser.opam
 ./scripts/import.sh andreypopp/reactor 0.1 react/react_server.opam
+./scripts/import.sh andreypopp/reactor 0.1 react/react_dream.opam
