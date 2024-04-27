@@ -20,8 +20,4 @@
 ./scripts/import.sh andreypopp/ppx_router 0.3
 ./scripts/import.sh andreypopp/ppx_deriving_router 0.4
 ./scripts/import.sh andreypopp/ppx_deriving_router 0.5
-./scripts/import.sh andreypopp/reactor 0.1 remote/remote.opam
-./scripts/import.sh andreypopp/reactor 0.1 realm/realm.opam
-./scripts/import.sh andreypopp/reactor 0.1 react/react_browser.opam
-./scripts/import.sh andreypopp/reactor 0.1 react/react_server.opam
-./scripts/import.sh andreypopp/reactor 0.1 react/react_dream.opam
+./scripts/import.sh andreypopp/reactor 0.1
