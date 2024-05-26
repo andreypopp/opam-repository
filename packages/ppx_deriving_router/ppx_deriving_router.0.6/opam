@@ -12,7 +12,6 @@ depends: [
   "ppxlib"
   "containers"
   "routes"
-  "dream"
   "melange"
   "melange-fetch"
   "ppx_deriving_json"
@@ -34,4 +33,4 @@ build: [
   ]
 ]
 dev-repo: "git+https://github.com/andreypopp/ppx_deriving_router.git"
-version: "0.5"
+version: "0.6"
