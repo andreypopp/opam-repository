@@ -34,3 +34,7 @@ build: [
 ]
 dev-repo: "git+https://github.com/andreypopp/reactor.git"
 version: "0.2"
+url {
+  archive: "https://api.github.com/repos/andreypopp/reactor/tarball/0.2"
+  checksum: [ "sha512=61b992881876cf171b3cad9f03ddcbb82b3e26f6feb52682d8b696e8eb90937b925c586bbebb53c7007bd1fca80d07ba9a7395967327293fbf9e35826a2d3c00" ]
+}

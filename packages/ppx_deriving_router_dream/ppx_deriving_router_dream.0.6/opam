@@ -31,3 +31,7 @@ build: [
 ]
 dev-repo: "git+https://github.com/andreypopp/ppx_deriving_router.git"
 version: "0.6"
+url {
+  archive: "https://api.github.com/repos/andreypopp/ppx_deriving_router/tarball/0.6"
+  checksum: [ "sha512=6d3150a31956f129d6bb8498e4b4d03bd180556d7b5a9ab7d9a5276eec09bf5c306f56859a04d95f286b0760b7bebaeb428225aa7deb73c49bc8050bb62f3ea7" ]
+}

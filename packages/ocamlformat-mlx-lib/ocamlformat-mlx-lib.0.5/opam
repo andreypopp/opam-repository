@@ -59,3 +59,7 @@ dev-repo: "git+https://github.com/ocaml-ppx/ocamlformat.git"
 # OCamlFormat is distributed under the MIT license. Parts of the OCaml library are vendored for OCamlFormat and distributed under their original LGPL 2.1 license
 license: ["MIT" "LGPL-2.1-only WITH OCaml-LGPL-linking-exception"]
 version: "0.5"
+url {
+  archive: "https://api.github.com/repos/ocaml-mlx/ocamlformat-mlx/tarball/0.5"
+  checksum: [ "sha512=a1f0c7b89f001c722596f7bf88d606d9f2ab5115b93281b09533621696cdfef09358dda30ddcf0019dc2f26672c7f8df2f8c23ec04fc57c0121646c2c33a05e4" ]
+}

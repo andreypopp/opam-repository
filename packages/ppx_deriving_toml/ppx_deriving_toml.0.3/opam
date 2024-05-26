@@ -29,3 +29,7 @@ build: [
 ]
 dev-repo: "git+https://github.com/andreypopp/ppx_deriving.git"
 version: "0.3"
+url {
+  archive: "https://api.github.com/repos/andreypopp/ppx_deriving/tarball/0.3"
+  checksum: [ "sha512=6b793844ac94efbd381c5fb3729f3904a64752e2c06ae0bece242cc0cfc7b58236e8a09167fdb84e0276de00f163d34f35f9e542840b5323883a9289b1585d18" ]
+}

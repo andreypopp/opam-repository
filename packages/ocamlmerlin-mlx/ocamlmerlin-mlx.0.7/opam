@@ -32,3 +32,7 @@ build: [
 ]
 dev-repo: "git+https://github.com/andreypopp/mlx.git"
 version: "0.7"
+url {
+  archive: "https://api.github.com/repos/ocaml-mlx/mlx/tarball/0.7"
+  checksum: [ "sha512=555777fbe899a71b8bde2c5887b1165dbc105091f006be4b964c4d597c5a17ee479ba72646c86018d27bb988b2600585d52f492f92874c0dade6ac4901210c1e" ]
+}
