@@ -2,4 +2,5 @@
 ./scripts/import.sh andreypopp/ocamlformat-mlx 0.5
 ./scripts/import.sh andreypopp/ppx_deriving 0.3
 ./scripts/import.sh andreypopp/ppx_deriving_router 0.6
+./scripts/import.sh andreypopp/ppx_deriving_router 0.7
 ./scripts/import.sh andreypopp/reactor 0.2
