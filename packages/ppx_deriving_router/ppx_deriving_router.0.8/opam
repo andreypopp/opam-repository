@@ -38,5 +38,5 @@ dev-repo: "git+https://github.com/andreypopp/ppx_deriving_router.git"
 version: "0.8"
 url {
   archive: "https://api.github.com/repos/andreypopp/ppx_deriving_router/tarball/0.8"
-  checksum: [ "sha512=c5bba7bbd5e77b871ebe41a74ef55f61ebdd7f5aace741731cec303566299fd62a62f3602cc046558c1af9206932a958a993fda1b0bebc33867e7f97cba9a753" ]
+  checksum: [ "sha512=685ee3d7bc6dbe7faba0e8ac6e955a50bbfd7e90ac2e28bb95a00216457200e78c71eb5c838e40173809f8c18bd1bfbd22104820e90eaf91e82044aa4f23a576" ]
 }

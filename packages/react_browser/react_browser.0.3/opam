@@ -36,5 +36,5 @@ dev-repo: "git+https://github.com/andreypopp/reactor.git"
 version: "0.3"
 url {
   archive: "https://api.github.com/repos/andreypopp/reactor/tarball/0.3"
-  checksum: [ "sha512=2c99763b11863c978134655e50cc1c0925544960ba02543ae55b127c01f4d40c9289599db1019de4744d5154bfeefc64f4a09f9a64e86fd4a1e8b332451715b6" ]
+  checksum: [ "sha512=d2d77edd9278a738604863c39ff5a666ab031f8ac2816e547d27b5a06360b5b112e006051663a343884741ca77870a38457546ad2b6c7ce2a891516d4442ea17" ]
 }
