@@ -1,0 +1,38 @@
+opam-version: "2.0"
+synopsis: "Merlin support for MLX OCaml dialect"
+maintainer: ["Andrey Popp"]
+authors: ["Andrey Popp"]
+license: "LICENSE"
+homepage: "https://github.com/ocaml-mlx/mlx"
+doc: "https://url/to/documentation"
+bug-reports: "https://github.com/ocaml-mlx/mlx/issues"
+depends: [
+  "ocaml" {>= "4.14.0"}
+  "ppxlib"
+  "dune" {>= "3.9"}
+  "merlin-lib"
+  "cppo"
+  "csexp" {with-dev-setup}
+  "menhir" {= "20201216" & with-dev-setup}
+  "odoc" {with-doc}
+]
+build: [
+  ["dune" "subst"] {dev}
+  [
+    "dune"
+    "build"
+    "-p"
+    name
+    "-j"
+    jobs
+    "@install"
+    "@runtest" {with-test}
+    "@doc" {with-doc}
+  ]
+]
+dev-repo: "git+https://github.com/ocaml-mlx/mlx.git"
+version: "0.8"
+url {
+  archive: "https://api.github.com/repos/ocaml-mlx/mlx/tarball/0.8"
+  checksum: [ "sha512=6f78f1dd7312ca899b9458167b6f34598f3acd5f8f727bdfefdd49a2c968cc32e857c554f57cf7d190a00a05345c306fa9a9479d7b154ff01f34a77f18242675" ]
+}
