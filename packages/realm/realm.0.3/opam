@@ -8,11 +8,9 @@ bug-reports: "https://github.com/andreypopp/reactor/issues"
 depends: [
   "ocaml" {>= "4.14"}
   "melange"
-  "dune" {>= "3.10"}
-  "reason-react"
-  "remote"
-  "realm"
-  "ppxlib"
+  "dune" {>= "3.15"}
+  "lwt"
+  "yojson"
   "odoc" {with-doc}
 ]
 build: [
@@ -32,8 +30,8 @@ build: [
   ["dune" "install" "-p" name "--create-install-files" name]
 ]
 dev-repo: "git+https://github.com/andreypopp/reactor.git"
-version: "0.2"
+version: "0.3"
 url {
-  archive: "https://api.github.com/repos/andreypopp/reactor/tarball/0.2"
-  checksum: [ "sha512=61b992881876cf171b3cad9f03ddcbb82b3e26f6feb52682d8b696e8eb90937b925c586bbebb53c7007bd1fca80d07ba9a7395967327293fbf9e35826a2d3c00" ]
+  archive: "https://api.github.com/repos/andreypopp/reactor/tarball/0.3"
+  checksum: [ "sha512=2c99763b11863c978134655e50cc1c0925544960ba02543ae55b127c01f4d40c9289599db1019de4744d5154bfeefc64f4a09f9a64e86fd4a1e8b332451715b6" ]
 }
