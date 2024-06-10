@@ -3,3 +3,4 @@
 ./scripts/import.sh andreypopp/ppx_deriving 0.3
 ./scripts/import.sh andreypopp/ppx_deriving_router 0.8
 ./scripts/import.sh andreypopp/reactor 0.3
+./scripts/import.sh andreypopp/reactor 0.4
